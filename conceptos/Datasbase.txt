@@ -1,0 +1,14 @@
+Existen dos tipos de bases de datos
+*Relacionales
+*No Relacionales
+
+Relacionales: Que los datos se manejan entre si, se maneja por tablas
+No Relacionales: Las bases de datos Relacionales sirven bien para almacenar informacion pequeña
+pero a la hora de traer la informacion en tiempo real se optra por bases de datos no relacionales
+esto ocurre mayormente en apps o paginas como facebook entre otras
+Dentro de las bases de datos no relacionales existen otros tipos como lo son 
+Clave-Valor: Que con una clave o un identificador unico accedes o guardas la informacion
+Documental: En donde en un documento simplemente se va guardando toda la informacion sin crear
+relacion entr si
+Grafos: Que son varios nodos de informacion guardada que se van creando y a su tiempo conectando
+si es necesario

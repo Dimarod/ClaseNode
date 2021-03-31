@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/socket.io/socket.io.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mira la consola</h1>
+    <label for="">inserte aqui su mensaje:</label>
+    <input type="text">
+    <button>Enviar</button>
+    <script>
+        var socket = io.connect('http://localhost:3000', {
+            forceNew: true
+        })
+        socket.on('message', (data)=>{
+            console.log(data);
+        })
+    </script>
+</body>
+</html>

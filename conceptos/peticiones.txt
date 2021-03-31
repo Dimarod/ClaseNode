@@ -1,0 +1,23 @@
+Peticiones HTTP:
+
+El HTTP es el protocolo que permite la comunicacion entre cualquier
+elemento que este en la web.
+
+Es el lenguaje comun para todas las comunicaciones por ende es fundamental
+aprenderlo
+
+Como es una peticion HTTP?
+
+Cliente => Internet => Servidor ida y vuelta
+
+Que va en una peticion?
+
+Get, Host, Referer, user agent, conecction
+
+Y la respuesta?
+HTTP1.1 200 ok y la fecha mas las cabeceras
+
+Puntos clave:
+Metodo. Que es lo que quieres hacer
+Estado. Como ha ido la operacion
+Cuerpo. Todo lo que el servidor devuelve

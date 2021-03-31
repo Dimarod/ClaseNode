@@ -1,0 +1,17 @@
+Cuerpo de la peticion
+
+La informacion en si que queremos enviar o recibir del servidor
+aqui no entra cabecera ni estado, esl la informacion neta que se envia o recibe
+
+Que tipo de datos viene en el cuerpo
+
+Pues depende de las cabeceras
+Content-Type tipo de archivo que vendra
+Content-Length que tan largo es 
+
+Query de la peticion
+
+Informacion extra a lo que se envia al servidor
+
+Orden en que se devulven los datos 
+Ejemplo los links de youtube youtube.com/watch?... (lo que va en los 3 puntos)

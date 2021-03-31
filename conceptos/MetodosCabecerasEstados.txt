@@ -1,0 +1,26 @@
+Metodos:
+
+Es el verbo que le indica al servidor que es lo que queremos hacer
+Get: Recoger información
+Post: Añadir información
+Put: Reemplazar información
+Delete: Eliminar información
+Patch: Actualizar parte de la información
+Options: Pedir información sobre los métodos o saber que metodo podemos usar
+
+Cabeceras:
+
+Información contextual de la peticion, no es lo que quiero hacer sino el como hacerlo
+(Cookies: compartir informaciónentre peticiones)
+Cors: Saber desde que fuente externa se puede usar nuestra app
+Accept: Que tipo de contenido acepta el servidor
+Authorization: Asegurar de poder realizar peticiones al servidor
+Cache: Cabecera de almacenamiento temporal
+
+Estados:
+
+Numeros que nos indican si la operacion se ha realizado bien o mal
+2xx: Indica que todo ha ido bien
+3xx: La peticion se ha redirigido
+4xx: Errores de parte del cliente
+5xx: Errores por parte del servidor
